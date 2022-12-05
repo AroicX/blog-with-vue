@@ -48,11 +48,17 @@ export default {
     },
   },
   created() {
+    window.scrollTo(0, 0);
     this.blogService = new blogService();
   },
   async beforeMount() {
     window.scrollTo(0, 0);
     await this.getSinglePost();
+  },
+  async beforeRouteUpdate() {
+    window.scrollTo(0, 0);
+    this.isLoading = true;
+    this.getSinglePost();
   },
   methods: {
     formatDate,

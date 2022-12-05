@@ -29,6 +29,6 @@ export default {
         </a>
       </div>
     </div>
-    <router-view></router-view>
+    <router-view :key="$route.fullPath"></router-view>
   </main>
 </template>
