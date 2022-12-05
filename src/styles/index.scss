@@ -1,0 +1,18 @@
+@import "base/reset";
+
+@import "utils/breakpoints";
+@import "utils/variables";
+
+@import "base/fonts";
+@import "base/locomotive";
+@import "base/globals";
+
+//mixins
+@import "utils/mixins.scss";
+
+// @import "components/loader";
+
+@import "components/loader";
+@import "components/nav";
+@import "components/blog";
+//pages

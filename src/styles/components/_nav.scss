@@ -1,0 +1,28 @@
+.f_nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &--socials {
+    margin: auto 0;
+    display: flex;
+
+    &-content {
+      padding: 2rem;
+      // margin: 0 0.5rem;
+
+      &-icon {
+        width: 2rem;
+        height: 2rem;
+        fill: #fff;
+      }
+    }
+
+    span {
+      margin: auto 0;
+    }
+  }
+}
